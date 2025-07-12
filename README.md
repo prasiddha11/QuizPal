@@ -1,20 +1,22 @@
 # QuizPal
 
-## Overview
+## 📱 Overview
 
 QuizPal is a mobile quiz application designed to provide users with a fun and interactive way to test their knowledge across various topics.
 
-## Goal
+## 🎯 Goal
 
 The primary goal of QuizPal is to offer an engaging and educational quiz experience, enabling users to challenge themselves, learn new facts, and track their progress over time.
 
-## Features
+## 🚀 Features
 
-- Multiple choice questions across different categories and difficulty levels
-- Instant feedback on answers after each question
-- Score tracking and summary at the end of each quiz
-- Randomized questions for a unique experience every time
-- User-friendly interface for smooth navigation
+- ✅ Multiple choice questions across various categories and difficulty levels
+- ✅ Instant feedback after each question
+- ✅ Score tracking and a detailed summary at the end of each quiz
+- ✅ Randomized questions for a fresh experience every session
+- ✅ Simple and intuitive user interface
+- ✅ Lightweight and fast performance
+- ✅ Easy to expand with new questions or categories
 
 ### 🔐 Login Page
 ![Login Page](img/login_page.png)

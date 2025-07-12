@@ -39,3 +39,10 @@ The primary goal of QuizPal is to offer an engaging and educational quiz experie
 4. **Run the app** on an emulator or a physical Android device.
 
 *Ensure you have Android Studio and the appropriate SDKs installed.*
+
+## 📥 Download APK
+
+You can download the latest **QuizPal APK** from the link below:
+
+👉 [Download QuizPal APK](https://drive.google.com/file/d/1uvx7IcCz6uklrfF3hSYB8_42asAvI-78/view?usp=sharing)
+

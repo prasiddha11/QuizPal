@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen"
+    tools:context=".WalletFragment">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="@drawable/bg_buttom2" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/roundedbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Current coins :"
+        android:textColor="#FBF6F6"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toTopOf="@+id/view6" />
+
+    <TextView
+        android:id="@+id/currentCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="26000"
+        android:textColor="#FFFCFC"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="50000 coins is required to withdraw"
+        android:textColor="#F8F4F4"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/currentCoins"
+        app:layout_constraintStart_toStartOf="@+id/currentCoins"
+        app:layout_constraintTop_toBottomOf="@+id/currentCoins" />
+
+    <EditText
+        android:id="@+id/emailBox2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/button4"
+        android:drawableLeft="@drawable/paypal_icon"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Paypal Email address"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+    <TextView
+        android:id="@+id/sendRequest"
+        android:layout_width="155dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="90dp"
+        android:background="@drawable/button2"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Send Request"
+        android:textColor="@color/material_dynamic_tertiary20"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/emailBox2"
+        app:layout_constraintStart_toStartOf="@+id/emailBox2"
+        app:layout_constraintTop_toBottomOf="@+id/emailBox2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

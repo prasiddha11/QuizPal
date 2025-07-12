@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "715547348084",
+    "project_id": "quizpal-1f618",
+    "storage_bucket": "quizpal-1f618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715547348084:android:dce868881c06d24a7a5521",
+        "android_client_info": {
+          "package_name": "com.android.quizpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715547348084-ehl5indnrj1gebcq8v1lg1tj4dv26cfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKleZV6_5GJ3kYzYW0nqihqMOUSADYe6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715547348084-ehl5indnrj1gebcq8v1lg1tj4dv26cfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715547348084:android:33b9d0e134f0ce357a5521",
+        "android_client_info": {
+          "package_name": "com.example.quizpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715547348084-ehl5indnrj1gebcq8v1lg1tj4dv26cfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKleZV6_5GJ3kYzYW0nqihqMOUSADYe6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715547348084-ehl5indnrj1gebcq8v1lg1tj4dv26cfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
